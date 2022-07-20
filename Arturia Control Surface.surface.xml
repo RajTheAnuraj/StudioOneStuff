@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ControlSurface>
+	<Controls>
+		<Control name="Return To Zero" title="Return To Zero" type="button" options="receive transmit public">
+			<MidiMessage status="#90" address="#5D"/>
+		</Control>
+		<Control name="Toggle Play" title="Toggle Play" type="button" options="receive transmit public">
+			<MidiMessage status="#90" address="#5E"/>
+		</Control>
+		<Control name="Record Button" title="Record Button" type="button" options="receive transmit public">
+			<MidiMessage status="#90" address="#5F"/>
+		</Control>
+		<Control name="Reverse Button" title="Reverse Button" type="trigger" options="receive transmit public">
+			<MidiMessage status="#90" address="#5B"/>
+		</Control>
+		<Control name="Forward Button" title="Forward Button" type="trigger" options="receive transmit public">
+			<MidiMessage status="#90" address="#5C"/>
+		</Control>
+		<Control name="Loop Button" title="Loop Button" type="trigger" options="receive transmit public">
+			<MidiMessage status="#90" address="#56"/>
+		</Control>
+		<Control name="Metronome Button" title="Metronome Button" type="trigger" options="receive transmit public">
+			<MidiMessage status="#90" address="#59"/>
+		</Control>
+		<Control name="Punch Button" title="Punch Button" type="trigger" options="receive transmit public">
+			<MidiMessage status="#90" address="#58"/>
+		</Control>
+		<Control name="Save Button" title="Save Button" type="trigger" options="receive transmit public">
+			<MidiMessage status="#90" address="#50"/>
+		</Control>
+		<Control name="Undo Button" title="Undo Button" type="trigger" options="receive transmit public">
+			<MidiMessage status="#90" address="#51"/>
+		</Control>
+	</Controls>
+</ControlSurface>
